@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+		integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="asset/bootstrap/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="asset/css/base.css">
+  <link rel="stylesheet" href="asset/css/style.css">
+	<link rel="stylesheet" href="asset/css/apple.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row header_top">
+				<div class="col-3 d-flex align-items-center">
+					<a href="index.html" class="box_logo"><img src="asset/img/logo_moi_1-01.png" alt=""></a>
+				</div>
+				<div class="col-6 d-flex align-items-center">
+					<div class="box_search"><input type="text" placeholder="Tìm kiếm sản phẩm"> <a href="#" class="btn_search"><i
+								class="fa-solid fa-magnifying-glass"></i></a></div>
+				</div>
+				<div class="col-3 d-flex justify-content-start">
+					<div class="box_logo_right"><img src="asset/img/rectangle-copy-8_2x.png" alt=""></div>
+				</div>
+			</div>
+		</div>
+		<div class="header_full">
+			<div class="container">
+				<div class="row"> <!-- menu -->
+					<div class="col-12">
+						<ul class="menu">
+							<li><a href="#"><span class="icon"><i class="fa-brands fa-apple"></i></span>Apple</a></li>
+							<li><a href="#"><span class="icon"><i class="fa-solid fa-mobile-screen"></i></span>Samsung</a></li>
+							<li class="has_child">
+								<a href="#"><span class="icon"><i class="fa-solid fa-mobile-retro"></i></span>Điện thoại</a>
+								<ul class="sub_menu">
+									<li><a href="#">Apple</a></li>
+									<li><a href="#">Samsung</a></li>
+									<li><a href="#">Oppo</a></li>
+									<li><a href="#">Xiaomi</a></li>
+								</ul>
+							</li>
+							<li class="has_child">
+								<a href="#"><span class="icon"><i class="fa-solid fa-tablet-screen-button"></i></span>Tablet</a>
+								<ul class="sub_menu">
+									<li><a href="#">Apple</a></li>
+									<li><a href="#">Samsung</a></li>
+								</ul>
+							</li>
+							<li class="has_child">
+								<a href="#"><span class="icon"><i class="fa-solid fa-laptop"></i></span>Laptop</a>
+								<ul class="sub_menu">
+									<li><a href="#">Macbook</a></li>
+									<li><a href="#">HP</a></li>
+									<li><a href="#">Asus</a></li>
+									<li><a href="#">Lenovo</a></li>
+									<li><a href="#">Dell</a></li>
+									<li><a href="#">Msi</a></li>
+									<li><a href="#">Surface</a></li>
+								</ul>
+							</li>
+							<li class="has_child">
+								<a href="#"><span class="icon"><i class="fa-solid fa-computer"></i>></span>Pc - Máy văn phòng</a>
+								<ul class="sub_menu">
+									<li><a href="#">Màn hình máy tính</a></li>
+									<li><a href="#">Máy tính để bàn</a></li>
+								</ul>
+							</li>
+							<li class="has_child">
+								<a href="#"><span class="icon"><i class="fa-solid fa-swatchbook"></i></span>Đồng hồ</a>
+								<ul class="sub_menu">
+									<li><a href="#">Apple</a></li>
+									<li><a href="#">Samsung</a></li>
+								</ul>
+							</li>
+							<li class="has_child">
+								<a href="#"><span class="icon"><i class="fa-solid fa-headphones"></i></span>Phụ kiện</a>
+								<ul class="sub_menu">
+									<li><a href="#">Pin dự phòng</a></li>
+									<li><a href="#">Bao da, ốp lưng</a></li>
+									<li><a href="#">Balo - Túi xách laptop</a></li>
+									<li><a href="#">Tai nghe, loa</a></li>
+									<li><a href="#">Sạc cáp</a></li>
+									<li><a href="#">Chuột, bàn phím</a></li>
+									<li><a href="#">Cường lực - PPF</a></li>
+								</ul>
+							</li>
+							<li class="has_child">
+								<a href="#"><span class="icon"><i class="fa-solid fa-gift"></i></span>Khuyến mãi</a>
+								<ul class="sub_menu">
+									<li><a href="#">Tết đến lương về sale cực mê</a></li>
+									<li><a href="#">Khuyến mãi cuối tuần</a></li>
+									<li><a href="#">Giờ vàng giá sốc</a></li>
+									<li><a href="#">Tablet plaza thứ ba giá rẻ</a></li>
+								</ul>
+							</li>
+							<li><a href="#"><span class="icon"><i class="fa-regular fa-newspaper"></i></span>Tin tức</a></li>
+						</ul>
+          </div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="container">
+      <section class="section_one">
+        <!-- banner -->
+        <div class="row">
+          <div class="col-8">
+            <div class="box_banner_left"><img src="asset/img/apple/apple_817_x_170_euyl-hc.jpg" alt=""></div>
+          </div>
+          <div class="col-4">
+            <div class="box_banner_right"><img src="asset/img/apple/2apple_357_x_170_4m6s-6i.jpg" alt=""></div>
+          </div>
+        </div>
+
+        <!-- List Catalog -->
+        <div class="row">
+          <!-- list_catalog -->
+          <div class="col-12">
+            <ul class="list_catalog">
+              <li><a href="#" class="box_img"><img src="asset/img/apple/iphone_3x.png" alt=""></a></li>
+              <li><a href="#" class="box_img"><img src="asset/img/apple/ipad_3x.png" alt=""></a></li>
+              <li><a href="#" class="box_img"><img src="asset/img/apple/dong-ho_3x.png" alt=""></a></li>
+              <li><a href="#" class="box_img"><img src="asset/img/apple/macbook_3x.png" alt=""></a></li>
+              <li><a href="#" class="box_img"><img src="asset/img/apple/group-5_3x_8xau-5p.png" alt=""></a></li>
+            </ul>
+          </div>
+
+          <!-- fillter_bar -->
+          <ul class="col-12">
+            <ul class="fillter_bar">
+              <li class="has_child" id="js_has_child">
+                <a href="#">Xếp theo phổ biến nhất <span class="icon"><i class="fa-solid fa-sort-down"></i></span></a>
+                <ul class="box_child" id="js_box_child">
+                  <li><a href="#">Xếp theo Tên: A đến Z</a></li>
+                  <li><a href="#" >Xếp theo Tên: Z đến A</a></li>
+                  <li><a href="#">Xếp theo Giá: Thấp đến Cao</a></li>
+                  <li><a href="#">Xếp theo Giá: Cao đến Thấp</a></li>
+                </ul>
+              </li>
+              <li class="has_child" id="js_has_child">
+                <a href="#">15 Mỗi trang <span class="icon"><i class="fa-solid fa-sort-down"></i></span></a>
+                <ul class="box_child" id="js_box_child">
+                  <li><a href="#">20 mỗi trang</a></li>
+                  <li><a href="#">40 mỗi trang</a></li>
+                  <li><a href="#">80 mỗi trang</a></li>
+                  <li><a href="#">160 mỗi trang</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="hr"></div>
+          </ul>
+        </div>
+
+        <!-- list_product -->
+        <div class="list_products">
+          <div class="row">
+            <div class="col-12d5">
+              <div class="product_item">
+                <!-- slider_img -->
+                <div class="product_img">
+                  <div class="list_product_img">
+                    <button id="product_img_prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="slide_container">
+                      <div class="list_img_product d-flex flex-nowrap" id="js_list_img_product">
+                        <img src="asset/img/sale2.jpg" alt="">
+                        <img src="asset/img/sl3.jpg" alt="">
+                      </div>
+                    </div>
+                    <button id="product_img_next"><i class="fa-solid fa-chevron-right"></i></button>
+                  </div>
+                  <img src="asset/img/thuonghieu.png" alt="" class="trademark">
+
+                </div>
+                <!-- comtent -->
+                <div class="product_content">
+                  <p class="product_status">Hotsale</p>
+                  <h4 class="product_name"><a href="#">Combo samsung galaxy z flip5 512G siêu hót</a></h4>
+                  <p class="cost_origin">37.990.000 đ</p>
+                  <span class="product_price">19.990.000 đ</span>
+                  <span class="sale_off">-17%</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12d5">
+              <div class="product_item">
+                <!-- slider_img -->
+                <div class="product_img">
+                  <div class="list_product_img">
+                    <button id="product_img_prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="slide_container">
+                      <div class="list_img_product d-flex flex-nowrap" id="js_list_img_product">
+                        <img src="asset/img/sale2.jpg" alt="">
+                        <img src="asset/img/sl3.jpg" alt="">
+                      </div>
+                    </div>
+                    <button id="product_img_next"><i class="fa-solid fa-chevron-right"></i></button>
+                  </div>
+                  <img src="asset/img/thuonghieu.png" alt="" class="trademark">
+
+                </div>
+                <!-- comtent -->
+                <div class="product_content">
+                  <p class="product_status">Hotsale</p>
+                  <h4 class="product_name"><a href="#">Combo samsung galaxy z flip5 512G siêu hót</a></h4>
+                  <p class="cost_origin">37.990.000 đ</p>
+                  <span class="product_price">19.990.000 đ</span>
+                  <span class="sale_off">-17%</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12d5">
+              <div class="product_item">
+                <!-- slider_img -->
+                <div class="product_img">
+                  <div class="list_product_img">
+                    <button id="product_img_prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="slide_container">
+                      <div class="list_img_product d-flex flex-nowrap" id="js_list_img_product">
+                        <img src="asset/img/sale2.jpg" alt="">
+                        <img src="asset/img/sl3.jpg" alt="">
+                      </div>
+                    </div>
+                    <button id="product_img_next"><i class="fa-solid fa-chevron-right"></i></button>
+                  </div>
+                  <img src="asset/img/thuonghieu.png" alt="" class="trademark">
+
+                </div>
+                <!-- comtent -->
+                <div class="product_content">
+                  <p class="product_status">Hotsale</p>
+                  <h4 class="product_name"><a href="#">Combo samsung galaxy z flip5 512G siêu hót</a></h4>
+                  <p class="cost_origin">37.990.000 đ</p>
+                  <span class="product_price">19.990.000 đ</span>
+                  <span class="sale_off">-17%</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12d5">
+              <div class="product_item">
+                <!-- slider_img -->
+                <div class="product_img">
+                  <div class="list_product_img">
+                    <button id="product_img_prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="slide_container">
+                      <div class="list_img_product d-flex flex-nowrap" id="js_list_img_product">
+                        <img src="asset/img/sale2.jpg" alt="">
+                        <img src="asset/img/sl3.jpg" alt="">
+                      </div>
+                    </div>
+                    <button id="product_img_next"><i class="fa-solid fa-chevron-right"></i></button>
+                  </div>
+                  <img src="asset/img/thuonghieu.png" alt="" class="trademark">
+
+                </div>
+                <!-- comtent -->
+                <div class="product_content">
+                  <p class="product_status">Hotsale</p>
+                  <h4 class="product_name"><a href="#">Combo samsung galaxy z flip5 512G siêu hót</a></h4>
+                  <p class="cost_origin">37.990.000 đ</p>
+                  <span class="product_price">19.990.000 đ</span>
+                  <span class="sale_off">-17%</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12d5">
+              <div class="product_item">
+                <!-- slider_img -->
+                <div class="product_img">
+                  <div class="list_product_img">
+                    <button id="product_img_prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="slide_container">
+                      <div class="list_img_product d-flex flex-nowrap" id="js_list_img_product">
+                        <img src="asset/img/sale2.jpg" alt="">
+                        <img src="asset/img/sl3.jpg" alt="">
+                      </div>
+                    </div>
+                    <button id="product_img_next"><i class="fa-solid fa-chevron-right"></i></button>
+                  </div>
+                  <img src="asset/img/thuonghieu.png" alt="" class="trademark">
+
+                </div>
+                <!-- comtent -->
+                <div class="product_content">
+                  <p class="product_status">Hotsale</p>
+                  <h4 class="product_name"><a href="#">Combo samsung galaxy z flip5 512G siêu hót</a></h4>
+                  <p class="cost_origin">37.990.000 đ</p>
+                  <span class="product_price">19.990.000 đ</span>
+                  <span class="sale_off">-17%</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12d5">
+              <div class="product_item">
+                <!-- slider_img -->
+                <div class="product_img">
+                  <div class="list_product_img">
+                    <button id="product_img_prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="slide_container">
+                      <div class="list_img_product d-flex flex-nowrap" id="js_list_img_product">
+                        <img src="asset/img/sale2.jpg" alt="">
+                        <img src="asset/img/sl3.jpg" alt="">
+                      </div>
+                    </div>
+                    <button id="product_img_next"><i class="fa-solid fa-chevron-right"></i></button>
+                  </div>
+                  <img src="asset/img/thuonghieu.png" alt="" class="trademark">
+
+                </div>
+                <!-- comtent -->
+                <div class="product_content">
+                  <p class="product_status">Hotsale</p>
+                  <h4 class="product_name"><a href="#">Combo samsung galaxy z flip5 512G siêu hót</a></h4>
+                  <p class="cost_origin">37.990.000 đ</p>
+                  <span class="product_price">19.990.000 đ</span>
+                  <span class="sale_off">-17%</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12d5">
+              <div class="product_item">
+                <!-- slider_img -->
+                <div class="product_img">
+                  <div class="list_product_img">
+                    <button id="product_img_prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="slide_container">
+                      <div class="list_img_product d-flex flex-nowrap" id="js_list_img_product">
+                        <img src="asset/img/sale2.jpg" alt="">
+                        <img src="asset/img/sl3.jpg" alt="">
+                      </div>
+                    </div>
+                    <button id="product_img_next"><i class="fa-solid fa-chevron-right"></i></button>
+                  </div>
+                  <img src="asset/img/thuonghieu.png" alt="" class="trademark">
+
+                </div>
+                <!-- comtent -->
+                <div class="product_content">
+                  <p class="product_status">Hotsale</p>
+                  <h4 class="product_name"><a href="#">Combo samsung galaxy z flip5 512G siêu hót</a></h4>
+                  <p class="cost_origin">37.990.000 đ</p>
+                  <span class="product_price">19.990.000 đ</span>
+                  <span class="sale_off">-17%</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12d5">
+              <div class="product_item">
+                <!-- slider_img -->
+                <div class="product_img">
+                  <div class="list_product_img">
+                    <button id="product_img_prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="slide_container">
+                      <div class="list_img_product d-flex flex-nowrap" id="js_list_img_product">
+                        <img src="asset/img/sale2.jpg" alt="">
+                        <img src="asset/img/sl3.jpg" alt="">
+                      </div>
+                    </div>
+                    <button id="product_img_next"><i class="fa-solid fa-chevron-right"></i></button>
+                  </div>
+                  <img src="asset/img/thuonghieu.png" alt="" class="trademark">
+
+                </div>
+                <!-- comtent -->
+                <div class="product_content">
+                  <p class="product_status">Hotsale</p>
+                  <h4 class="product_name"><a href="#">Combo samsung galaxy z flip5 512G siêu hót</a></h4>
+                  <p class="cost_origin">37.990.000 đ</p>
+                  <span class="product_price">19.990.000 đ</span>
+                  <span class="sale_off">-17%</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12d5">
+              <div class="product_item">
+                <!-- slider_img -->
+                <div class="product_img">
+                  <div class="list_product_img">
+                    <button id="product_img_prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="slide_container">
+                      <div class="list_img_product d-flex flex-nowrap" id="js_list_img_product">
+                        <img src="asset/img/sale2.jpg" alt="">
+                        <img src="asset/img/sl3.jpg" alt="">
+                      </div>
+                    </div>
+                    <button id="product_img_next"><i class="fa-solid fa-chevron-right"></i></button>
+                  </div>
+                  <img src="asset/img/thuonghieu.png" alt="" class="trademark">
+
+                </div>
+                <!-- comtent -->
+                <div class="product_content">
+                  <p class="product_status">Hotsale</p>
+                  <h4 class="product_name"><a href="#">Combo samsung galaxy z flip5 512G siêu hót</a></h4>
+                  <p class="cost_origin">37.990.000 đ</p>
+                  <span class="product_price">19.990.000 đ</span>
+                  <span class="sale_off">-17%</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12d5">
+              <div class="product_item">
+                <!-- slider_img -->
+                <div class="product_img">
+                  <div class="list_product_img">
+                    <button id="product_img_prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="slide_container">
+                      <div class="list_img_product d-flex flex-nowrap" id="js_list_img_product">
+                        <img src="asset/img/sale2.jpg" alt="">
+                        <img src="asset/img/sl3.jpg" alt="">
+                      </div>
+                    </div>
+                    <button id="product_img_next"><i class="fa-solid fa-chevron-right"></i></button>
+                  </div>
+                  <img src="asset/img/thuonghieu.png" alt="" class="trademark">
+
+                </div>
+                <!-- comtent -->
+                <div class="product_content">
+                  <p class="product_status">Hotsale</p>
+                  <h4 class="product_name"><a href="#">Combo samsung galaxy z flip5 512G siêu hót</a></h4>
+                  <p class="cost_origin">37.990.000 đ</p>
+                  <span class="product_price">19.990.000 đ</span>
+                  <span class="sale_off">-17%</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12d5">
+              <div class="product_item">
+                <!-- slider_img -->
+                <div class="product_img">
+                  <div class="list_product_img">
+                    <button id="product_img_prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="slide_container">
+                      <div class="list_img_product d-flex flex-nowrap" id="js_list_img_product">
+                        <img src="asset/img/sale2.jpg" alt="">
+                        <img src="asset/img/sl3.jpg" alt="">
+                      </div>
+                    </div>
+                    <button id="product_img_next"><i class="fa-solid fa-chevron-right"></i></button>
+                  </div>
+                  <img src="asset/img/thuonghieu.png" alt="" class="trademark">
+
+                </div>
+                <!-- comtent -->
+                <div class="product_content">
+                  <p class="product_status">Hotsale</p>
+                  <h4 class="product_name"><a href="#">Combo samsung galaxy z flip5 512G siêu hót</a></h4>
+                  <p class="cost_origin">37.990.000 đ</p>
+                  <span class="product_price">19.990.000 đ</span>
+                  <span class="sale_off">-17%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PHÂN TRANG - pagination -->
+        <div class="row">
+          <div class="col-12">
+            <div class="hr"></div>
+            <ul class="list_pages" id="js_list_pages">
+              <li><button class="btn btn_prev" id="js_btn_prev"><span class="icon"><i class="fa-solid fa-arrow-left"></i></span> Trước</button></li>
+              <li class="page active">1</li>
+              <li class="page">2</li>
+              <li class="page">3</li>
+              <li class="page">4</li>
+              <li class="page">5</li>
+              <li class="page">6</li>
+              <li class="page">7</li>
+              <li class="page">8</li>
+              <li><button class="btn btn_next" id="js_btn_next">Tiếp theo <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></b></li>
+              <li><span class="current_page">1</span> - <span class="total_page" id="js_total_page">8</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+	</main>
+	<footer class="footer">
+		<div class="hr orange"></div>
+		<div class="footer_top">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-3">
+						<div class="box_img"><img src="asset/img/logo_moi_1-01.png" alt=""></div>
+					</div>
+					<div class="col-9">
+						<ul class="list_sections">
+							<li><a href="#">Apple</a></li>
+							<li><a href="#">Điện thoại di động</a></li>
+							<li><a href="#">Phụ kiện giá tốt</a></li>
+							<li><a href="#">Máy cũ giá tốt</a></li>
+							<li><a href="#">Liên hệ</a></li>
+							<li><a href="#">Hệ thống showroom</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_mid">
+			<div class="container">
+				<div class="row">
+					<div class="col-3 column">
+						<div class="box_list">
+							<h3 class="list_title"><span>Tablet palza</span></h3>
+							<ul class="list_content">
+								<li><a href="#">Tuyển dụng</a></li>
+								<li><a href="#">Khuyến mãi</a></li>
+								<li><a href="#">Trả góp</a></li>
+								<li><a href="#">Góp ý, khuyến mãi</a></li>
+							</ul>
+						</div>
+						<div class="box_list mt-3">
+							<h3 class="list_title"><span>Chăm sóc khách hàng</span></h3>
+							<ul class="list_content">
+								<li><a href="#">Câu hỏi thường gặp</a></li>
+								<li><a href="#">Chính sách bảo hành</a></li>
+								<li><a href="#">Chính sách đổi trả</a></li>
+								<li><a href="#">Chính sách bảo mật</a></li>
+								<li><a href="#">Hướng dẫn thanh toán</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-9 column">
+						<div class="box_list">
+							<h3 class="list_title"><span>Hệ thống cửa hàng</span></h3>
+							<div class="row">
+								<div class="col-4">
+									<ul class="list_content">
+										<li><a href="#" class="second_title">Tablet plaza tp.hcm</a></li>
+		
+										<li><a href="#" class="active">Tablet plaza quận 5</a></li>
+										<li><a href="#" class="">182 Trần Bình Trọng Phường 3 Quận 5</a></li>
+										<li><a href="#" class="">Hotline: 0948.666.000</a></li>
+		
+										<li><a href="#" class="active">Tablet Plaza Gò Vấp</a></li>
+										<li><a href="#" class="">182 Trần Bình Trọng Phường 3 Quận 5</a></li>
+										<li><a href="#" class="">Hotline: 0948.666.000</a></li>
+		
+										<li><a href="#" class="active">Tablet Plaza Tân Bình</a></li>
+										<li><a href="#" class="">182 Trần Bình Trọng Phường 3 Quận 5</a></li>
+										<li><a href="#" class="">Hotline: 0948.666.000</a></li>
+									</ul>
+								</div>
+								<div class="col-4">
+									<ul class="list_content">
+										<li><a href="#" class="second_title">TABLET PLAZA BÌNH DƯƠNG</a></li>
+		
+										<li><a href="#" class="active">Tablet plaza thủ dầu 1</a></li>
+										<li><a href="#" class="">Số 449 Đại lộ Bình Dương, P. Phú Cường, TP.TDM</a></li>
+										<li><a href="#" class="">Hotline: <span class="strong">0834.290.290</span></a></li>
+		
+										<li><a href="#" class="active">Tablet Plaza Dĩ An(SRS Dĩ An)</a></li>
+										<li><a href="#" class="">233 Lý Thường Kiệt, P.Dĩ An, TP.Dĩ An</a></li>
+										<li><a href="#" class="">Hotline: <span class="strong"> 0888.62.72.62</span></a></li>
+		
+										<li><a href="#" class="active">Tablet Plaza Dĩ An</a></li>
+										<li><a href="#" class="">Số 249 Nguyễn An Ninh, P. Dĩ An, TP. Dĩ An</a></li>
+										<li><a href="#" class="">Hotline: <span class="strong">0917.84.74.74</span></a></li>
+
+										<li><a href="#" class="active">Tablet Plaza Bến Cát</a></li>
+										<li><a href="#" class="">Lô A10 Golden Center City, QL13, Mỹ Phước, Bến Cát</a></li>
+										<li><a href="#" class="">Hotline: <span class="strong">0888.066.578</span></a></li>
+									</ul>
+								</div>
+								<div class="col-4">
+									<ul class="list_content">
+										<li><a href="#" class="second_title">TABLET PLAZA ĐỒNG NAI</a></li>
+		
+										<li><a href="#" class="active">Tablet Plaza Biên Hòa</a></li>
+										<li><a href="#" class="">Số 93 Đồng Khởi, P. Tam Hiệp, Tp. Biên Hòa</a></li>
+										<li><a href="#" class="">Hotline: <span class="strong"> 0933.033.966</span></a></li>
+										
+										<li class="footer_box_img"><img src="asset/img/chungnhan.jpeg" alt=""></li>
+										<li class="footer_adv"><img src="https://www.gstatic.com/partners/badge/images/2022/PartnerBadgeClickable.svg" alt=""></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+		<div class="footer_bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<p class="footer_text">© 2010 - 2024 Tablet Plaza.  Công ty TNHH TMDV Tin Học BNI</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="asset/js/apple.js" type="module"></script>
+</body>
+
+</html>
