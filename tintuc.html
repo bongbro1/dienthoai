@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+		integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="asset/bootstrap/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="asset/css/base.css">
+  <link rel="stylesheet" href="asset/css/index.css">
+	<link rel="stylesheet" href="asset/css/tintuc.css">
+	<title>Tin tức</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row header_top">
+				<div class="col-3 d-flex align-items-center">
+					<a href="index.html" class="box_logo"><img src="asset/img/logo_moi_1-01.png" alt=""></a>
+				</div>
+				<div class="col-6 d-flex align-items-center">
+					<div class="box_search"><input type="text" placeholder="Tìm kiếm sản phẩm"> <a href="#" class="btn_search"><i
+								class="fa-solid fa-magnifying-glass"></i></a></div>
+				</div>
+				<div class="col-3 d-flex justify-content-start">
+					<div class="box_logo_right"><img src="asset/img/rectangle-copy-8_2x.png" alt=""></div>
+				</div>
+			</div>
+		</div>
+		<div class="header_full">
+			<div class="container">
+				<div class="row"> <!-- menu -->
+					<div class="col-12">
+						<ul class="menu">
+							<li><a href="apple.html"><span class="icon"><i class="fa-brands fa-apple"></i></span>Apple</a></li>
+							<li><a href="samsung.html"><span class="icon"><i class="fa-solid fa-mobile-screen"></i></span>Samsung</a></li>
+							<li class="has_child">
+								<a href="dienthoai.html"><span class="icon"><i class="fa-solid fa-mobile-retro"></i></span>Điện thoại</a>
+								<ul class="sub_menu">
+									<li><a href="#">Apple</a></li>
+									<li><a href="#">Samsung</a></li>
+									<li><a href="#">Oppo</a></li>
+									<li><a href="#">Xiaomi</a></li>
+								</ul>
+							</li>
+							<li class="has_child">
+								<a href="#"><span class="icon"><i class="fa-solid fa-tablet-screen-button"></i></span>Tablet</a>
+								<ul class="sub_menu">
+									<li><a href="#">Apple</a></li>
+									<li><a href="#">Samsung</a></li>
+								</ul>
+							</li>
+							<li class="has_child">
+								<a href="#"><span class="icon"><i class="fa-solid fa-laptop"></i></span>Laptop</a>
+								<ul class="sub_menu">
+									<li><a href="#">Macbook</a></li>
+									<li><a href="#">HP</a></li>
+									<li><a href="#">Asus</a></li>
+									<li><a href="#">Lenovo</a></li>
+									<li><a href="#">Dell</a></li>
+									<li><a href="#">Msi</a></li>
+									<li><a href="#">Surface</a></li>
+								</ul>
+							</li>
+							<li class="has_child">
+								<a href="#"><span class="icon"><i class="fa-solid fa-computer"></i>></span>Pc - Máy văn phòng</a>
+								<ul class="sub_menu">
+									<li><a href="#">Màn hình máy tính</a></li>
+									<li><a href="#">Máy tính để bàn</a></li>
+								</ul>
+							</li>
+							<li class="has_child">
+								<a href="#"><span class="icon"><i class="fa-solid fa-swatchbook"></i></span>Đồng hồ</a>
+								<ul class="sub_menu">
+									<li><a href="#">Apple</a></li>
+									<li><a href="#">Samsung</a></li>
+								</ul>
+							</li>
+							<li class="has_child">
+								<a href="#"><span class="icon"><i class="fa-solid fa-headphones"></i></span>Phụ kiện</a>
+								<ul class="sub_menu">
+									<li><a href="#">Pin dự phòng</a></li>
+									<li><a href="#">Bao da, ốp lưng</a></li>
+									<li><a href="#">Balo - Túi xách laptop</a></li>
+									<li><a href="#">Tai nghe, loa</a></li>
+									<li><a href="#">Sạc cáp</a></li>
+									<li><a href="#">Chuột, bàn phím</a></li>
+									<li><a href="#">Cường lực - PPF</a></li>
+								</ul>
+							</li>
+							<li class="has_child">
+								<a href="#"><span class="icon"><i class="fa-solid fa-gift"></i></span>Khuyến mãi</a>
+								<ul class="sub_menu">
+									<li><a href="#">Tết đến lương về sale cực mê</a></li>
+									<li><a href="#">Khuyến mãi cuối tuần</a></li>
+									<li><a href="#">Giờ vàng giá sốc</a></li>
+									<li><a href="#">Tablet plaza thứ ba giá rẻ</a></li>
+								</ul>
+							</li>
+							<li><a href="tintuc.html"><span class="icon"><i class="fa-regular fa-newspaper"></i></span>Tin tức</a></li>
+						</ul>
+          </div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="container bg">
+      <section class="section_one">
+        <div class="row">
+          <div class="col-12">
+            <ul class="menu_news">
+              <li><a href="#" class="active">Tin tức mới nhất</a></li>
+              <li><a href="#">Tin SamSung</a></li>
+              <li><a href="#">Tin Apple</a></li>
+              <li><a href="#">Tin Tin Latop</a></li>
+              <li><a href="#">Tin khuyen mai</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="hr"></div>
+          </div>
+        </div>
+      </section>
+      <section class="section_two">
+        <div class="row mb-3">
+          <div class="col-12d7-x5">
+            <div class="post_type_1">
+              <a href="#" class="post_img"><img src="asset/img/tintuc/t1.jpeg" alt=""></a>
+              <div class="post_content">
+                <h3 class="post_title"><a href="#">Tablet Plaza Tân Bình địa điểm chuyên bán điện thoại, máy tính</a></h3>
+                <p class="post_author"><span class="time_push">03/04/2023</span> <span class="name_push">bởi Xuân Quang Lê</span></p>
+                <p class="post_desc">Gần đây Tablet Plaza đã mở rộng kinh doanh thêm chi nhánh mới ở khu vực quận Tân Bình . Đến với Tablet Plaza Tân Bình khách hàng sẽ được trải nghiệm một không gian mua sắm rộng rãi, thoải mái và có chất lượng dịch vụ tốt. Cửa hàng có các sản phẩm đa dạng</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12d7-x2">
+						<ul class="list_imgs">
+							<li><a href="#" class="box_img"><img src="asset/img/tintuc/r1.jpg" alt=""></a></li>
+							<li><a href="#" class="box_img"><img src="asset/img/tintuc/r2.jpg" alt=""></a></li>
+							<li><a href="#" class="box_img"><img src="asset/img/tintuc/r3.jpg" alt=""></a></li>
+							<li><a href="#" class="box_img"><img src="asset/img/tintuc/r4.jpg" alt=""></a></li>
+						</ul>
+					</div>
+        </div>
+				<div class="row px-4 row-2">
+					<div class="col-4">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/p1.jpeg" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Cuộc đua ngầm trên MXH của các ông lớn bán lẻ: FPT Shop bỏ xa Điện Máy...</a></h3>
+								<div class="post_desc_parent"><p class="post_desc">Mức độ phổ biến của thương hiệu trên MXH được đánh giá theo tổng của các cấu phần: điểm sắc thái, điểm thị phần thảo luận, điểm tương tác, điểm độ lan tỏa. Bảng xếp hạng ngành bán lẻ năm 2022 do Reputa công bố mới đây cho biết, lĩnh vực này nhận được mức</p></div>
+								<p class="post_author"><span class="time_push">03/04/2023</span> <span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/t2.jpeg" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Cuộc đua ngầm trên MXH của các ông lớn bán lẻ: FPT Shop bỏ xa Điện Máy...</a></h3>
+								<div class="post_desc_parent"><p class="post_desc">Mức độ phổ biến của thương hiệu trên MXH được đánh giá theo tổng của các cấu phần: điểm sắc thái, điểm thị phần thảo luận, điểm tương tác, điểm độ lan tỏa. Bảng xếp hạng ngành bán lẻ năm 2022 do Reputa công bố mới đây cho biết, lĩnh vực này nhận được mức</p></div>
+								<p class="post_author"><span class="time_push">03/04/2023</span> <span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/t3.jpg" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Cuộc đua ngầm trên MXH của các ông lớn bán lẻ: FPT Shop bỏ xa Điện Máy...</a></h3>
+								<div class="post_desc_parent"><p class="post_desc">Mức độ phổ biến của thương hiệu trên MXH được đánh giá theo tổng của các cấu phần: điểm sắc thái, điểm thị phần thảo luận, điểm tương tác, điểm độ lan tỏa. Bảng xếp hạng ngành bán lẻ năm 2022 do Reputa công bố mới đây cho biết, lĩnh vực này nhận được mức</p></div>
+								<p class="post_author"><span class="time_push">03/04/2023</span> <span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/t4.png" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Cuộc đua ngầm trên MXH của các ông lớn bán lẻ: FPT Shop bỏ xa Điện Máy...</a></h3>
+								<div class="post_desc_parent"><p class="post_desc">Mức độ phổ biến của thương hiệu trên MXH được đánh giá theo tổng của các cấu phần: điểm sắc thái, điểm thị phần thảo luận, điểm tương tác, điểm độ lan tỏa. Bảng xếp hạng ngành bán lẻ năm 2022 do Reputa công bố mới đây cho biết, lĩnh vực này nhận được mức</p></div>
+								<p class="post_author"><span class="time_push">03/04/2023</span> <span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/t5.png" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Cuộc đua ngầm trên MXH của các ông lớn bán lẻ: FPT Shop bỏ xa Điện Máy...</a></h3>
+								<div class="post_desc_parent"><p class="post_desc">Mức độ phổ biến của thương hiệu trên MXH được đánh giá theo tổng của các cấu phần: điểm sắc thái, điểm thị phần thảo luận, điểm tương tác, điểm độ lan tỏa. Bảng xếp hạng ngành bán lẻ năm 2022 do Reputa công bố mới đây cho biết, lĩnh vực này nhận được mức</p></div>
+								<p class="post_author"><span class="time_push">03/04/2023</span> <span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/t6.png" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Cuộc đua ngầm trên MXH của các ông lớn bán lẻ: FPT Shop bỏ xa Điện Máy...</a></h3>
+								<div class="post_desc_parent"><p class="post_desc">Mức độ phổ biến của thương hiệu trên MXH được đánh giá theo tổng của các cấu phần: điểm sắc thái, điểm thị phần thảo luận, điểm tương tác, điểm độ lan tỏa. Bảng xếp hạng ngành bán lẻ năm 2022 do Reputa công bố mới đây cho biết, lĩnh vực này nhận được mức</p></div>
+								<p class="post_author"><span class="time_push">03/04/2023</span> <span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/t7.png" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Cuộc đua ngầm trên MXH của các ông lớn bán lẻ: FPT Shop bỏ xa Điện Máy...</a></h3>
+								<div class="post_desc_parent"><p class="post_desc">Mức độ phổ biến của thương hiệu trên MXH được đánh giá theo tổng của các cấu phần: điểm sắc thái, điểm thị phần thảo luận, điểm tương tác, điểm độ lan tỏa. Bảng xếp hạng ngành bán lẻ năm 2022 do Reputa công bố mới đây cho biết, lĩnh vực này nhận được mức</p></div>
+								<p class="post_author"><span class="time_push">03/04/2023</span> <span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/t8.png" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Cuộc đua ngầm trên MXH của các ông lớn bán lẻ: FPT Shop bỏ xa Điện Máy...</a></h3>
+								<div class="post_desc_parent"><p class="post_desc">Mức độ phổ biến của thương hiệu trên MXH được đánh giá theo tổng của các cấu phần: điểm sắc thái, điểm thị phần thảo luận, điểm tương tác, điểm độ lan tỏa. Bảng xếp hạng ngành bán lẻ năm 2022 do Reputa công bố mới đây cho biết, lĩnh vực này nhận được mức</p></div>
+								<p class="post_author"><span class="time_push">03/04/2023</span> <span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/t9.jpg" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Cuộc đua ngầm trên MXH của các ông lớn bán lẻ: FPT Shop bỏ xa Điện Máy...</a></h3>
+								<div class="post_desc_parent"><p class="post_desc">Mức độ phổ biến của thương hiệu trên MXH được đánh giá theo tổng của các cấu phần: điểm sắc thái, điểm thị phần thảo luận, điểm tương tác, điểm độ lan tỏa. Bảng xếp hạng ngành bán lẻ năm 2022 do Reputa công bố mới đây cho biết, lĩnh vực này nhận được mức</p></div>
+								<p class="post_author"><span class="time_push">03/04/2023</span> <span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/t10.png" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Cuộc đua ngầm trên MXH của các ông lớn bán lẻ: FPT Shop bỏ xa Điện Máy...</a></h3>
+								<div class="post_desc_parent"><p class="post_desc">Mức độ phổ biến của thương hiệu trên MXH được đánh giá theo tổng của các cấu phần: điểm sắc thái, điểm thị phần thảo luận, điểm tương tác, điểm độ lan tỏa. Bảng xếp hạng ngành bán lẻ năm 2022 do Reputa công bố mới đây cho biết, lĩnh vực này nhận được mức</p></div>
+								<p class="post_author"><span class="time_push">03/04/2023</span> <span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/t11.png" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Cuộc đua ngầm trên MXH của các ông lớn bán lẻ: FPT Shop bỏ xa Điện Máy...</a></h3>
+								<div class="post_desc_parent"><p class="post_desc">Mức độ phổ biến của thương hiệu trên MXH được đánh giá theo tổng của các cấu phần: điểm sắc thái, điểm thị phần thảo luận, điểm tương tác, điểm độ lan tỏa. Bảng xếp hạng ngành bán lẻ năm 2022 do Reputa công bố mới đây cho biết, lĩnh vực này nhận được mức</p></div>
+								<p class="post_author"><span class="time_push">03/04/2023</span> <span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/t12.png" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Cuộc đua ngầm trên MXH của các ông lớn bán lẻ: FPT Shop bỏ xa Điện Máy...</a></h3>
+								<div class="post_desc_parent"><p class="post_desc">Mức độ phổ biến của thương hiệu trên MXH được đánh giá theo tổng của các cấu phần: điểm sắc thái, điểm thị phần thảo luận, điểm tương tác, điểm độ lan tỏa. Bảng xếp hạng ngành bán lẻ năm 2022 do Reputa công bố mới đây cho biết, lĩnh vực này nhận được mức</p></div>
+								<p class="post_author"><span class="time_push">03/04/2023</span> <span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/t13.jpg" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Cuộc đua ngầm trên MXH của các ông lớn bán lẻ: FPT Shop bỏ xa Điện Máy...</a></h3>
+								<div class="post_desc_parent"><p class="post_desc">Mức độ phổ biến của thương hiệu trên MXH được đánh giá theo tổng của các cấu phần: điểm sắc thái, điểm thị phần thảo luận, điểm tương tác, điểm độ lan tỏa. Bảng xếp hạng ngành bán lẻ năm 2022 do Reputa công bố mới đây cho biết, lĩnh vực này nhận được mức</p></div>
+								<p class="post_author"><span class="time_push">03/04/2023</span> <span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/t14.jpg" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Cuộc đua ngầm trên MXH của các ông lớn bán lẻ: FPT Shop bỏ xa Điện Máy...</a></h3>
+								<div class="post_desc_parent"><p class="post_desc">Mức độ phổ biến của thương hiệu trên MXH được đánh giá theo tổng của các cấu phần: điểm sắc thái, điểm thị phần thảo luận, điểm tương tác, điểm độ lan tỏa. Bảng xếp hạng ngành bán lẻ năm 2022 do Reputa công bố mới đây cho biết, lĩnh vực này nhận được mức</p></div>
+								<p class="post_author"><span class="time_push">03/04/2023</span> <span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+      </section>
+
+			<section class="section_three">
+				<div class="row bg_grey">
+					<div class="col-12">
+						<h3 class="section_title orange">TIN SAMSUNG</h3>
+					</div>
+				</div>
+				<div class="row bg_grey">
+					<div class="col-6">
+						<div class="post_type_3">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/ts1.png" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">BNI tham tham dự Sự Kiện Ra Mắt Sản Phẩm Mới của Samsung tại Hàn Quốc</a></h3>
+								<p class="post_author"><span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="post_type_3">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/ts2.jpg" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">BNI tham tham dự Sự Kiện Ra Mắt Sản Phẩm Mới của Samsung tại Hàn Quốc</a></h3>
+								<p class="post_author"><span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="post_type_3">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/ts3.jpg" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">BNI tham tham dự Sự Kiện Ra Mắt Sản Phẩm Mới của Samsung tại Hàn Quốc</a></h3>
+								<p class="post_author"><span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="post_type_3">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/ts4.jpg" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">BNI tham tham dự Sự Kiện Ra Mắt Sản Phẩm Mới của Samsung tại Hàn Quốc</a></h3>
+								<p class="post_author"><span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="post_type_3">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/ts5.jpg" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">BNI tham tham dự Sự Kiện Ra Mắt Sản Phẩm Mới của Samsung tại Hàn Quốc</a></h3>
+								<p class="post_author"><span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="post_type_3">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/ts6.jpg" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">BNI tham tham dự Sự Kiện Ra Mắt Sản Phẩm Mới của Samsung tại Hàn Quốc</a></h3>
+								<p class="post_author"><span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section_four">
+				<div class="row">
+					<div class="col-8 no_pading">
+						<div class="box_video">
+							<iframe class="video_frame" src="https://www.youtube.com/embed/GVNktuZwMmw" title="Bạn Cần Mua Điện Thoại - Máy Tính Bảng - Laptop.... Đến Ngay Với Tablet Plaza" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="box_img"><img src="asset/img/tintuc/z series.png" alt=""></div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-6">
+						<h3 class="section_title orange">Tin Apple</h3>
+						<div class="post_type_4">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/ta1.jpg" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">CÓ NÊN MUA IPHONE 12 PROMAX TRONG THỜI ĐIỂM NÀY HAY KHÔNG?</a></h3>
+								<p class="post_author">
+									<span class="time_push">03/09/2023</span>
+									<span class="name_push">bởi Võ Hoàng Hoài Thương</span>
+								</p>
+							</div>
+						</div>
+						<div class="post_type_4">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/ta1.jpg" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">CÓ NÊN MUA IPHONE 12 PROMAX TRONG THỜI ĐIỂM NÀY HAY KHÔNG?</a></h3>
+								<p class="post_author">
+									<span class="time_push">03/09/2023</span>
+									<span class="name_push">bởi Võ Hoàng Hoài Thương</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-6">
+						<h3 class="section_title orange">Tin latop</h3>
+					</div>
+				</div>
+				<div class="row">
+					<h3 class="section_title orange">Tin khuyen mai</h3>
+					<div class="col-3">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/ts1.png" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Săn sale cuối tuần - tưng bừng giá tốt</a></h3>
+								<p class="post_author"><span class="time_push">12/12/2023</span><span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/ts1.png" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Săn sale cuối tuần - tưng bừng giá tốt</a></h3>
+								<p class="post_author"><span class="time_push">12/12/2023</span><span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/ts1.png" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Săn sale cuối tuần - tưng bừng giá tốt</a></h3>
+								<p class="post_author"><span class="time_push">12/12/2023</span><span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/ts1.png" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Săn sale cuối tuần - tưng bừng giá tốt</a></h3>
+								<p class="post_author"><span class="time_push">12/12/2023</span><span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="post_type_2">
+							<a href="#" class="post_img"><img src="asset/img/tintuc/ts1.png" alt=""></a>
+							<div class="post_content">
+								<h3 class="post_title"><a href="#">Săn sale cuối tuần - tưng bừng giá tốt</a></h3>
+								<p class="post_author"><span class="time_push">12/12/2023</span><span class="name_push">bởi Xuân Quang Lê</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- PHÂN TRANG -->
+				<div class="row">
+          <div class="col-12">
+            <ul class="list_pages" id="js_list_pages">
+              <li><button class="btn btn_prev" id="js_btn_prev"><span class="icon"><i class="fa-solid fa-arrow-left"></i></span> Trước</button></li>
+              <li class="page active">1</li>
+              <li class="page">2</li>
+              <li class="page">3</li>
+              <li class="page">4</li>
+              <li class="page">5</li>
+              <li class="page">6</li>
+              <li class="page">7</li>
+              <li class="page">8</li>
+              <li><button class="btn btn_next" id="js_btn_next">Tiếp theo <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></b></li>
+              <li><span class="current_page">1</span> - <span class="total_page" id="js_total_page">8</span></li>
+            </ul>
+          </div>
+        </div>
+			</section>
+    </div>
+	</main>
+
+  <div class="box"></div>
+
+	<footer class="footer">
+		<div class="hr orange"></div>
+		<div class="footer_top">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-3">
+						<div class="box_img"><img src="asset/img/logo_moi_1-01.png" alt=""></div>
+					</div>
+					<div class="col-9">
+						<ul class="list_sections">
+							<li><a href="#">Apple</a></li>
+							<li><a href="#">Điện thoại di động</a></li>
+							<li><a href="#">Phụ kiện giá tốt</a></li>
+							<li><a href="#">Máy cũ giá tốt</a></li>
+							<li><a href="#">Liên hệ</a></li>
+							<li><a href="#">Hệ thống showroom</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_mid">
+			<div class="container">
+				<div class="row">
+					<div class="col-3 column">
+						<div class="box_list">
+							<h3 class="list_title"><span>Tablet palza</span></h3>
+							<ul class="list_content">
+								<li><a href="#">Tuyển dụng</a></li>
+								<li><a href="#">Khuyến mãi</a></li>
+								<li><a href="#">Trả góp</a></li>
+								<li><a href="#">Góp ý, khuyến mãi</a></li>
+							</ul>
+						</div>
+						<div class="box_list mt-3">
+							<h3 class="list_title"><span>Chăm sóc khách hàng</span></h3>
+							<ul class="list_content">
+								<li><a href="#">Câu hỏi thường gặp</a></li>
+								<li><a href="#">Chính sách bảo hành</a></li>
+								<li><a href="#">Chính sách đổi trả</a></li>
+								<li><a href="#">Chính sách bảo mật</a></li>
+								<li><a href="#">Hướng dẫn thanh toán</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-9 column">
+						<div class="box_list">
+							<h3 class="list_title"><span>Hệ thống cửa hàng</span></h3>
+							<div class="row">
+								<div class="col-4">
+									<ul class="list_content">
+										<li><a href="#" class="second_title">Tablet plaza tp.hcm</a></li>
+		
+										<li><a href="#" class="active">Tablet plaza quận 5</a></li>
+										<li><a href="#" class="">182 Trần Bình Trọng Phường 3 Quận 5</a></li>
+										<li><a href="#" class="">Hotline: 0948.666.000</a></li>
+		
+										<li><a href="#" class="active">Tablet Plaza Gò Vấp</a></li>
+										<li><a href="#" class="">182 Trần Bình Trọng Phường 3 Quận 5</a></li>
+										<li><a href="#" class="">Hotline: 0948.666.000</a></li>
+		
+										<li><a href="#" class="active">Tablet Plaza Tân Bình</a></li>
+										<li><a href="#" class="">182 Trần Bình Trọng Phường 3 Quận 5</a></li>
+										<li><a href="#" class="">Hotline: 0948.666.000</a></li>
+									</ul>
+								</div>
+								<div class="col-4">
+									<ul class="list_content">
+										<li><a href="#" class="second_title">TABLET PLAZA BÌNH DƯƠNG</a></li>
+		
+										<li><a href="#" class="active">Tablet plaza thủ dầu 1</a></li>
+										<li><a href="#" class="">Số 449 Đại lộ Bình Dương, P. Phú Cường, TP.TDM</a></li>
+										<li><a href="#" class="">Hotline: <span class="strong">0834.290.290</span></a></li>
+		
+										<li><a href="#" class="active">Tablet Plaza Dĩ An(SRS Dĩ An)</a></li>
+										<li><a href="#" class="">233 Lý Thường Kiệt, P.Dĩ An, TP.Dĩ An</a></li>
+										<li><a href="#" class="">Hotline: <span class="strong"> 0888.62.72.62</span></a></li>
+		
+										<li><a href="#" class="active">Tablet Plaza Dĩ An</a></li>
+										<li><a href="#" class="">Số 249 Nguyễn An Ninh, P. Dĩ An, TP. Dĩ An</a></li>
+										<li><a href="#" class="">Hotline: <span class="strong">0917.84.74.74</span></a></li>
+
+										<li><a href="#" class="active">Tablet Plaza Bến Cát</a></li>
+										<li><a href="#" class="">Lô A10 Golden Center City, QL13, Mỹ Phước, Bến Cát</a></li>
+										<li><a href="#" class="">Hotline: <span class="strong">0888.066.578</span></a></li>
+									</ul>
+								</div>
+								<div class="col-4">
+									<ul class="list_content">
+										<li><a href="#" class="second_title">TABLET PLAZA ĐỒNG NAI</a></li>
+		
+										<li><a href="#" class="active">Tablet Plaza Biên Hòa</a></li>
+										<li><a href="#" class="">Số 93 Đồng Khởi, P. Tam Hiệp, Tp. Biên Hòa</a></li>
+										<li><a href="#" class="">Hotline: <span class="strong"> 0933.033.966</span></a></li>
+										
+										<li class="footer_box_img"><img src="asset/img/chungnhan.jpeg" alt=""></li>
+										<li class="footer_adv"><img src="https://www.gstatic.com/partners/badge/images/2022/PartnerBadgeClickable.svg" alt=""></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+		<div class="footer_bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<p class="footer_text">© 2010 - 2024 Tablet Plaza.  Công ty TNHH TMDV Tin Học BNI</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="asset/js/apple.js" type="module"></script>
+</body>
+
+</html>

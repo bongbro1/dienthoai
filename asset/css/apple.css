@@ -14,7 +14,7 @@
 .list_catalog {
   display: flex;
   justify-content: start;
-  margin: 20px 8px;
+  margin: 20px 0;
 }
 .list_catalog .box_img {
   display: block;
@@ -27,9 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.list_catalog li + li {
-  margin-left: 10px;
+  margin: 10px 8px 0;
 }
 
 /* fillter_bar */

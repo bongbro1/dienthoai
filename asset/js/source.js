@@ -126,20 +126,20 @@ export function slider_row () {
   
           if (value_inner_slide > 0) {
             value_inner_slide = -(count - 5) * 260;
-            inner_slide.style.transition = `all ease-in-out 2s`;
+            inner_slide.style.transition = `all ease-in-out 1s`;
           }
           else
-            inner_slide.style.transition = `all ease-in-out 0.5s`;
+            inner_slide.style.transition = `all ease-in-out 0.4s`;
           inner_slide.style.transform = `translateX(${value_inner_slide}px)`;
         }
         else {
           value_inner_slide -= 260;
           if (value_inner_slide < -(count - 5) * 260) {
             value_inner_slide = 0;
-            inner_slide.style.transition = `all ease-in-out 2s`;
+            inner_slide.style.transition = `all ease-in-out 1s`;
           }
           else
-            inner_slide.style.transition = `all ease-in-out 0.5s`;
+            inner_slide.style.transition = `all ease-in-out 0.4s`;
           inner_slide.style.transform = `translateX(${value_inner_slide}px)`;
         }
         console.log(value_inner_slide);
